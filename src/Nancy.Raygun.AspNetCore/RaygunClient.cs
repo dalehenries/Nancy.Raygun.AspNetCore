@@ -2,15 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using Nancy.Raygun.AspNetCore.Messages;
 using Newtonsoft.Json;
-using System.Net;
 using System.Net.Http;
-using System.Net.Http.Headers;
 
 namespace Nancy.Raygun.AspNetCore
 {
@@ -84,7 +80,7 @@ namespace Nancy.Raygun.AspNetCore
 
                 if (result.StatusCode != System.Net.HttpStatusCode.Accepted)
                 {
-                    Trace.WriteLine(string.Format("Error Logging Exception to Raygun.io {0} - {1}", result.StatusCode, result.ReasonPhrase));
+                    Trace.WriteLine(string.Format("Error Logging Exception to Raygun.io {0} - {1}", result.StatusCode.GetHashCode(), result.ReasonPhrase));
                 }
                
             });

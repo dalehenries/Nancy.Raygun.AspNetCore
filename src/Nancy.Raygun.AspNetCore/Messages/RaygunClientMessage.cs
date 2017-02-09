@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using Nancy.Extensions;
+﻿using System.Reflection;
 
 namespace Nancy.Raygun.AspNetCore.Messages
 {
