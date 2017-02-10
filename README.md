@@ -7,8 +7,26 @@ This library is based off of [Nancy.Raygun](https://github.com/phillip-haydon/Na
 
 ## Installing Nancy.Raygun.AspNetCore
 
-To come...
+Using Nuget, install the Nancy.Raygun.AspNetCore package by adding it to you project.json:
+
+```javascript
+"frameworks" : {
+    "netcoreapp1.0" : {
+        "dependencies" : {
+            "Nancy.Raygun.AspNetCore": "1.0.0"
+        }
+    }
+}
+```
 
 ## Configuring Raygun
 
-To come...
+Add the following code to your appsettings.json:
+
+```javascript
+"RaygunSettings": {
+  "ApiKey": "YOUR_APP_API_KEY"
+}
+```
+
+And that's it.  Nancy should automatically pull in and setup raygun via NancyRaygunRegistration which is an IApplicationStartup.
