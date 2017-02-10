@@ -1,16 +1,20 @@
 ﻿{
   "version": "1.0.1",
   "authors": [
-    "Dale Henries"
+    "dalehenries", "jdkelley", "hallesesne"
   ],
-  "description": "Nancy provider for Raygun service on dotnet core",
+  "description": "Nancy.Raygun.AspNetCore is a non-official library, based on Nancy.Raygun, that wires up the error handling in Nancy to submit error to Raygun for dotnet core Nancy apps. See www.raygun.io for more details about the Raygun service.",
   "packOptions": {
     "owners": [
-      "Dale Henries"
+      "dalehenries", "jdkelley", "hallesesne"
     ],
     "tags": [
-      "Nancy", "Raygun", "dotnet core"
-    ]
+      "Nancy", "Raygun", "dotnet"
+    ],
+    "projectUrl": "https://github.com/dalehenries/Nancy.Raygun.AspNetCore",
+    "licenseUrl": "https://raw.githubusercontent.com/dalehenries/Nancy.Raygun.AspNetCore/master/License.md",
+    "summary": "Nancy provider for Raygun service on dotnet core"
+
   },
   "frameworks": {
     "netcoreapp1.0": {
