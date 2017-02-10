@@ -1,5 +1,17 @@
 ﻿{
   "version": "1.0.0-*",
+  "authors": [
+    "Dale Henries"
+  ],
+  "description": "Nancy provider for Raygun service on dotnet core",
+  "packOptions": {
+    "owners": [
+      "Dale Henries"
+    ],
+    "tags": [
+      "Nancy", "Raygun", "dotnet core"
+    ]
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
