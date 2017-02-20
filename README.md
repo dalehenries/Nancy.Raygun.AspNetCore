@@ -8,7 +8,7 @@ This library is based off of [Nancy.Raygun](https://github.com/phillip-haydon/Na
 
 ## Installing Nancy.Raygun.AspNetCore
 
-Using Nuget, install the [Nancy.Raygun.AspNetCore](https://www.nuget.org/packages/Nancy.Raygun.AspNetCore/) package by adding it to you project.json:
+Using Nuget, install the [Nancy.Raygun.AspNetCore](https://www.nuget.org/packages/Nancy.Raygun.AspNetCore/) package by adding it to your project.json:
 
 ```javascript
 "frameworks" : {
