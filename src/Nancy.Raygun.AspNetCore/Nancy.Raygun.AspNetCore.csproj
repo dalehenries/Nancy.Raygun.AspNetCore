@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Nancy.Raygun.AspNetCore is a non-official library, based on Nancy.Raygun, that wires up the error handling in Nancy to submit error to Raygun for dotnet core Nancy apps. See www.raygun.io for more details about the Raygun service.</Description>
+    <VersionPrefix>1.0.2</VersionPrefix>
+    <Authors>dalehenries;jdkelley;hallesesne</Authors>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>Nancy.Raygun.AspNetCore</AssemblyName>
+    <PackageId>Nancy.Raygun.AspNetCore</PackageId>
+    <PackageTags>Nancy;Raygun;dotnet</PackageTags>
+    <PackageProjectUrl>https://github.com/dalehenries/Nancy.Raygun.AspNetCore</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/dalehenries/Nancy.Raygun.AspNetCore/master/License.md</PackageLicenseUrl>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">
+    <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.0.2" />
+    <PackageReference Include="System.Diagnostics.StackTrace" Version="4.3.0" />
+    <PackageReference Include="System.Diagnostics.TraceSource" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
