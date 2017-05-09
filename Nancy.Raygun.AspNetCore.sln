@@ -1,20 +1,15 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED51CFAF-B647-4ABE-A519-006645E4D077}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{760064C8-8572-437B-AAC2-AA18A63B629B}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Raygun.AspNetCore", "src\Nancy.Raygun.AspNetCore\Nancy.Raygun.AspNetCore.csproj", "{70F76829-6E41-4B6A-819F-A85C59E74E6A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Nancy.Raygun.AspNetCore", "src\Nancy.Raygun.AspNetCore\Nancy.Raygun.AspNetCore.xproj", "{70F76829-6E41-4B6A-819F-A85C59E74E6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Raygun.AspNetCore.Tests", "src\Nancy.Raygun.AspNetCore.Tests\Nancy.Raygun.AspNetCore.Tests.csproj", "{74EA0E97-D63C-42DC-BD7D-FE278E0D9E43}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Nancy.Raygun.AspNetCore.Tests", "src\Nancy.Raygun.AspNetCore.Tests\Nancy.Raygun.AspNetCore.Tests.xproj", "{74EA0E97-D63C-42DC-BD7D-FE278E0D9E43}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Nancy.Raygun.AspNetCore.WebSiteSample", "src\Nancy.Raygun.AspNetCore.WebSiteSample\Nancy.Raygun.AspNetCore.WebSiteSample.xproj", "{0D264DC6-BD56-4C7B-8E61-46CF2157720D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Raygun.AspNetCore.WebSiteSample", "src\Nancy.Raygun.AspNetCore.WebSiteSample\Nancy.Raygun.AspNetCore.WebSiteSample.csproj", "{0D264DC6-BD56-4C7B-8E61-46CF2157720D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
