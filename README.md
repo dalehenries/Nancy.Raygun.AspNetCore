@@ -8,16 +8,12 @@ This library is based off of [Nancy.Raygun](https://github.com/phillip-haydon/Na
 
 ## Installing Nancy.Raygun.AspNetCore
 
-Using Nuget, install the [Nancy.Raygun.AspNetCore](https://www.nuget.org/packages/Nancy.Raygun.AspNetCore/) package by adding it to your project.json:
+Using Nuget, install the [Nancy.Raygun.AspNetCore](https://www.nuget.org/packages/Nancy.Raygun.AspNetCore/) package. Your .csproj should include the following:
 
-```javascript
-"frameworks" : {
-    "netcoreapp1.0" : {
-        "dependencies" : {
-            "Nancy.Raygun.AspNetCore": "1.0.0"
-        }
-    }
-}
+```xml
+<ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">
+    <PackageReference Include="Nancy.Raygun.AspNetCore" Version="1.0.2" />
+</ItemGroup>
 ```
 
 ## Configuring Raygun
